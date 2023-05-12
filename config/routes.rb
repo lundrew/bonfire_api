@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   get 'current_user', to: 'current_user#index'
+  root to: redirect('/healthcheck', status: 302)
+  get "/healthcheck", to: proc { [200, {}, ["success"]] }
   resources :conversations
   resources :users
   resources :messages
