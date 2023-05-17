@@ -1,24 +1,54 @@
-# README
+# Bonfire Chat App - Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository contains the backend codebase of the Bonfire (Real-Time) Chat App built with Ruby on Rails API.
 
-Things you may want to cover:
+## Project Overview
 
-* Ruby version
+The Bonfire Chat App backend provides the API endpoints and database management for the chat application. It implements features such as authorization, authentication, caching, cookie storage, and JWT tokens.
 
-* System dependencies
+## Backend
 
-* Configuration
+https://github.com/lundrew/bonfire-chat
 
-* Database creation
+## Technologies and Features
 
-* Database initialization
+- [Ruby on Rails](https://rubyonrails.org): A web application framework used for building the API.
+- Authorization and Authentication: The backend includes mechanisms for authenticating and authorizing users.
+- Caching: The app utilizes caching techniques to improve performance and response times.
+- Cookie Storage: User sessions are managed using cookies for a seamless experience.
+- JWT Tokens: JSON Web Tokens are used for secure user authentication and authorization.
 
-* How to run the test suite
+## Getting Started
 
-* Services (job queues, cache servers, search engines, etc.)
+To simulate the backend on your local computer, follow these steps:
 
-* Deployment instructions
+1. Clone the repository:
 
-* ...
+   ```bash
+   git clone https://github.com/lundrew/bonfire_api.git
+
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   cd bonfire_api
+   ```
+
+   ```bash
+   bundle install
+
+   ```
+
+3. Set up the database:
+
+   ```bash
+   rails db:setup
+
+   ```
+
+4. Start the server:
+
+   ```bash
+   rails server
+   ```
