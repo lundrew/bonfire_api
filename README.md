@@ -6,7 +6,7 @@ This repository contains the backend codebase of the Bonfire (Real-Time) Chat Ap
 
 The Bonfire Chat App backend provides the API endpoints and database management for the chat application. It implements features such as authorization, authentication, caching, cookie storage, and JWT tokens.
 
-## Backend
+## Frontend
 
 https://github.com/lundrew/bonfire-chat
 
