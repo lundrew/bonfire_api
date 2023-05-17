@@ -1,5 +1,0 @@
-[build]
-commands = [
-  "bundle install --without development test",
-  "bundle exec rake db:migrate",
-]
